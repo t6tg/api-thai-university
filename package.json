@@ -1,12 +1,13 @@
 {
   "dependencies": {
-    "fastify": "^3.5.1"
+    "fastify": "^3.5.1",
+    "thai-university": "^1.0.2"
   },
   "name": "fastify-serverless",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "engines": {
-    "node": "10.x"
+    "node": "12.x"
   }
 }

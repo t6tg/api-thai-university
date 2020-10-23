@@ -1,4 +1,5 @@
 const fastify = require("fastify");
+const { getUniversities } = require("thai-university");
 
 function build() {
   const app = fastify({
@@ -6,7 +7,7 @@ function build() {
   });
 
   app.get("/", async (req, res) => {
-    return { status: "successful" };
+    return getUniversities();
   });
 
   return app;

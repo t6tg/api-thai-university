@@ -293,6 +293,11 @@ string_decoder@^1.1.1:
   dependencies:
     safe-buffer "~5.2.0"
 
+thai-university@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/thai-university/-/thai-university-1.0.2.tgz#df1a8d769dcc7b59c45b6d08b047ce0187b98b25"
+  integrity sha512-jOz39+EymUN2QIDIukPFoM+HdwHdS11ihHbxVbiK78gbtJzxEuLkI0RMsE6/J+VlcEun8J/rYaZSGYPvRyeXQQ==
+
 tiny-lru@^7.0.0:
   version "7.0.6"
   resolved "https://registry.yarnpkg.com/tiny-lru/-/tiny-lru-7.0.6.tgz#b0c3cdede1e5882aa2d1ae21cb2ceccf2a331f24"
